@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/ggcintercom_background"
+    tools:context="com.example.ljean.ggcintercom.Profile">
+
+    <ImageView
+        android:id="@+id/imgv_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/intercom_profile"
+        android:layout_marginBottom="5dp"
+        />
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:background="@color/green"
+        android:text="@string/upl"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/textv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dft_name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textv_function"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/function"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="@string/def_message"
+        android:background="@color/Overlaygreen"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sendmessage"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:onClick="SendingMessage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="166dp"
+        android:text="@string/theAsh"
+        android:textStyle="bold"
+        android:textSize="200sp"
+        android:textColor="@color/Overlaygreen"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="end" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

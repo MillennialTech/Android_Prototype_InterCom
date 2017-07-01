@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">#GGCInterCom</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="Sign_Up_Btn">SIGN UP</string>
+    <string name="register_not_member_yet">Not a member yet?Sign up</string>
+    <string name="upload">Upload</string>
+    <string name="dft_name">#Default name</string>
+    <string name="upl">Upload</string>
+    <string name="function">Function</string>
+    <string name="def_message">Type your message here</string>
+    <string name="sendmessage">Send message through intercom</string>
+    <string name="selectaudience">select an audience</string>
+    <string name="btnsend">SEND</string>
+    <string name="theAsh">#</string>
+    <string name="author">Created by GGC Innovation Club</string>
+    <string name="d2l">goto D2L</string>
+    <string name="banner">goto Banner</string>
+    <string name="clawmail">goto Clawmail</string>
+    <string name="getinvolved">goto getinvolved</string>
+    <string name="feedback">Feedback and Questions</string>
+    <string name="Alert">Alert</string>
+    <string name="nothing">There is nothing to show</string>
+
+    <!-- Strings related to login -->
+
+    <string name="First_n">First Name</string>
+    <string name="Last_n">Last Name</string>
+    <string name="Middle_I">Middle Initial</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string-array name="majors_array">
+        <item>Select a major</item>
+        <item>MIS</item>
+        <item>IT</item>
+        <item>Accounting</item>
+        <item>Biology</item>
+        <item>Nursing</item>
+        <item>Digital media</item>
+        <item>Chemistry</item>
+        <item>Histrory</item>
+        <item>English</item>
+        <item>Marketing</item>
+        <item>Finance</item>
+        <item>Economy</item>
+        <item>Management</item>
+        <item>Business Administration</item>
+        <item>Criminal Justice/ Criminology</item>
+        <item>Education</item>
+        <item>Environmental Science</item>
+        <item>Exercise Science</item>
+        <item>Mathematics</item>
+        <item>Political Science</item>
+        <item>Psychology</item>
+    </string-array>
+
+
+    <string-array name="grade_array">
+        <item>Select one</item>
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+
+
+    <string-array name="functions_array">
+        <item>Select a function</item>
+        <item>Student</item>
+        <item>alumnus</item>
+        <item>Professor</item>
+        <item>Dean</item>
+        <item>Provost</item>
+        <item>President</item>
+        <item>Assisstant</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
